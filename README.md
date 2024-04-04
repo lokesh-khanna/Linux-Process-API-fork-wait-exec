@@ -1,30 +1,34 @@
 # Linux-Process-API-fork-wait-exec-
-Ex02-Linux Process API-fork(), wait(), exec()
+
 # Ex02-OS-Linux-Process API - fork(), wait(), exec()
+
 Operating systems Lab exercise
 
 
-# AIM:
+## AIM :
+
 To write C Program that uses Linux Process API - fork(), wait(), exec()
 
-# DESIGN STEPS:
+## DESIGN STEPS :
 
-### Step 1:
+### Step 1 :
 
 Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
 
-### Step 2:
+### Step 2 :
 
 Write the C Program using Linux Process API - fork(), wait(), exec()
 
-### Step 3:
+### Step 3 :
 
 Test the C Program for the desired output. 
 
-# PROGRAM:
+## PROGRAM :
 
-## C Program to print process ID and parent Process ID using Linux API system calls
+### DEVELOPED BY : LOKESH KHANNA R
+### REG NO : 212222040088
 
+## C Program to print process ID and parent Process ID using Linux API system calls :
 ```
 #include <stdio.h>
 #include <sys/types.h>
@@ -46,20 +50,12 @@ int main(void)
 	return 0; }
 ```
 
+## OUTPUT :
 
-##OUTPUT
-
-![Screenshot 2024-04-04 151119](https://github.com/Anas536/Linux-Process-API-fork-wait-exec/assets/139841834/883d2044-6f01-4220-b881-3791fb13ca69)
-
+![image](https://github.com/JoyceBeulah/Linux-Process-API-fork-wait-exec/assets/118343698/c185b57b-3f9d-46bb-8c35-d1d38d480959)
 
 
-
-
-
-
-
-## C Program to create new process using Linux API system calls fork() and exit()
-
+## C Program to create new process using Linux API system calls fork() and exit() :
 
 ```
 #include <stdio.h>
@@ -86,18 +82,12 @@ int main() {
 }
 ```
 
+## OUTPUT :
+
+![image](https://github.com/JoyceBeulah/Linux-Process-API-fork-wait-exec/assets/118343698/f3fde68b-c98d-4172-a7db-0773758b3ad4)
 
 
-##OUTPUT
-
-![Screenshot 2024-04-04 151210](https://github.com/Anas536/Linux-Process-API-fork-wait-exec/assets/139841834/df3148df-2d60-4670-a995-fb2933587fa5)
-
-
-
-
-## C Program to execute Linux system commands using Linux API system calls exec() family
-
-
+## C Program to execute Linux system commands using Linux API system calls exec() family :
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -129,12 +119,24 @@ int main() {
 ```
 
 
+## OUTPUT :
 
-##OUTPUT
-
-![Uploading Screenshot 2024-04-04 151300.png…]()
-
+![image](https://github.com/JoyceBeulah/Linux-Process-API-fork-wait-exec/assets/118343698/42dda2d9-9f8a-47d2-b9c5-13dd09b97dd3)
 
 
-# RESULT:
-The programs are executed successfully.
+# RESULT :
+
+Thus the programs are executed successfully.
+
+
+
+
+
+
+
+
+
+
+
+
+
